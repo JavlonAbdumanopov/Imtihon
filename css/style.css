@@ -733,7 +733,7 @@ body {
     .header-bars {
         opacity: 1;
         position: relative;
-        bottom: 879px;
+        bottom: 818px;
         left: 371px;
     }
 
@@ -855,7 +855,7 @@ body {
 
     .result-box {
         position: relative;
-        right: 24px;
+        right: 20px;
         text-align: center;
     }
 
