@@ -1,0 +1,835 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    transition: all .4s ease;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* General class *************************/
+.h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 28px;
+    color: #173A56;
+}
+
+.h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #22343D;
+}
+
+.h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #22343D;
+}
+
+.h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+
+.p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #22343D;
+}
+
+.p1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.5px;
+    line-height: 26px;
+    color: #22343D;
+}
+
+.p2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.5px;
+    line-height: 26px;
+    text-align: center;
+    color: #000;
+}
+
+.li {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    color: #22343D;
+}
+
+.btn {
+    background: #fff;
+    padding: 5px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid#C4D6E8;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #02897A;
+    color: #fff;
+    border: 1px solid #02897A;
+}
+
+.btn-dark {
+    background: #02897A;
+    color: #fff;
+    padding: 5px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.btn-dark:hover {
+    transform: scale(1.1);
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.green {
+    color: #02897A;
+}
+
+/* Header section *****************************/
+.header-logo img,
+.header-logo h1 {
+    display: inline-block;
+    align-items: center;
+}
+
+.header-logo h1 {
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+}
+
+.header-nav-list {
+    opacity: 1;
+}
+
+.header-nav-item:nth-last-child(1) {
+    position: relative;
+    top: 7px;
+}
+
+.header-nav-item button {
+    font-family: Poppins;
+    width: 102px;
+    height: 43px;
+}
+
+.header-nav-item button:nth-last-child(1) {
+    transform: scale(1);
+}
+
+.header-nav-link {
+    color: #535455;
+}
+
+.header-nav-list a:hover {
+    color: #000;
+}
+
+.active {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-bars {
+    opacity: 0;
+    cursor: pointer
+}
+
+.header-content p {
+    margin: 20px 0;
+}
+
+.header-content-link {
+    margin-top: 40px;
+    width: 57%;
+}
+
+.header-content-link button {
+    font-family: Poppins;
+    width: 175px;
+    height: 53px;
+}
+
+.header-content-link img {
+    margin-left: 20px;
+}
+
+.header-content-link p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #02897A;
+}
+
+/* Feature section **************************/
+#feature {
+    margin: 20px 0 0 0;
+}
+
+.feature-box h3 {
+    margin: 13px 0;
+}
+
+.feature-btn-box {
+    width: 90%;
+    margin: 40px auto 0;
+    text-align: center;
+}
+
+.feature-btn {
+    width: 175px;
+    height: 53px;
+}
+
+
+/* Document section **********************/
+#document {
+    margin: 100px 0 0 0;
+}
+
+.document-box {
+    margin-top: 100px;
+}
+
+.forwrite {
+    position: relative;
+    left: 110px;
+}
+
+.document-box-img.one {
+    padding-left: 77px;
+
+}
+
+.document-box-img.two {
+    padding-left: 20px;
+}
+
+.document-box-forwrite h2 {
+    margin: 0 0 20px 0;
+}
+
+.document-box-forwrite h4 {
+    margin: 0 0 12px 0;
+}
+
+.document-box-forwrite p {
+    margin: 0 0 25px 0;
+}
+
+.document-box-correct img,
+.document-box-correct p {
+    display: inline-block;
+}
+
+.document-box-correct p {
+    margin-left: 25px;
+}
+
+/* Workshop section **********************/
+#workshop {
+    margin-top: 100px;
+}
+
+.workshop-container {
+    width: 50rem;
+    margin: auto;
+}
+
+.workshop-title {
+    text-align: center;
+}
+
+.workshop-title h3 {
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.workshop-title p {
+    margin: 16px auto 20px;
+    width: 40%;
+}
+
+.workshop-box {
+    margin-bottom: 24px;
+}
+
+.workshop-box .grid .col-lg-9 {
+    padding-left: 35px;
+}
+
+.noeffect {
+    position: relative;
+    left: 32px;
+}
+
+.workshop-box-forwrite {
+    width: 250px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 1px 7px 15px 1px rgb(236, 230, 230);
+    padding: 12px 0;
+}
+
+.workshop-box-forwrite p {
+    color: #000;
+    font-size: 17px;
+}
+
+.workshop-btn {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin: 24px auto 0;
+}
+
+.workshop-btn button {
+    width: 216px;
+    height: 53px;
+}
+
+/* Strategy section **********************/
+#strategy {
+    margin-top: 100px;
+}
+
+.strategy-box-content {
+    border: 2px solid rgb(230, 227, 227);
+    border-radius: 10px;
+}
+
+.strategy-box-content:hover .strategy-content-forwrite h3 {
+    color: #079483;
+}
+
+.strategy-box-content img {
+    width: 100%;
+}
+
+.strategy-content-forwrite {
+    padding-left: 25px;
+}
+
+.strategy-content-forwrite p {
+    margin: 15px 0 20px;
+}
+
+.strategy-content-forwrite h3 {
+    margin-bottom: 40px;
+}
+
+.strategy-cicrle {
+    width: 90%;
+    margin: 50px auto;
+}
+
+/* Price section **********************/
+#price {
+    margin-top: 100px;
+}
+
+.price-box-content {
+    border: 2px solid rgb(230, 227, 227);
+    border-radius: 10px;
+    height: 432px;
+    cursor: pointer;
+}
+
+.price-box-content:hover {
+    background: #02897A
+}
+
+.price-box-content:hover .price-content-forwrite *,
+.price-box-content:hover .price-content-title *,
+.price-box-content:hover .price-content-cost * {
+    color: #fff;
+}
+
+.price-box-content:hover .price-box-btn button {
+    background-color: #fff;
+    color: #02897A;
+}
+
+.price-box-content:hover .price-content-forwrite h3 {
+    color: #02897A;
+}
+
+.price-content-forwrite p {
+    margin: 15px 0 20px;
+}
+
+.price-content-span {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1px;
+    color: #AFAFAF;
+}
+
+.price-content-cost {
+    justify-content: center;
+}
+
+.price-content-cost {
+    margin: 16px 0;
+}
+
+.price-content-cost h2 {
+    font-size: 76px;
+    font-weight: bold;
+    line-height: 100px;
+    letter-spacing: .2px;
+}
+
+.price-content-span {
+    margin: 0 0 0 10px;
+    position: relative;
+    bottom: 7px;
+}
+
+.dollor {
+    position: relative;
+    top: 7px;
+    right: 35px;
+}
+
+.price-content-title h3 {
+    margin: 24px 0 8px;
+}
+
+.price-content-btn {
+    width: 139px;
+    height: 44px;
+}
+
+/* Clients section **********************/
+#clients {
+    margin-top: 100px;
+}
+
+.clients-title {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.clients-box-content {
+    border: 2px solid rgb(230, 227, 227);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0 0 0 30px;
+}
+
+.clients-box-content img {
+    margin: 28px 0 16px;
+}
+
+.clients-box-content p {
+    margin: 0 0 0 0px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.clients-content-user {
+    width: 190px;
+    align-items: center;
+}
+
+.clients-content-user span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    position: relative;
+    bottom: 10px;
+}
+
+.clients-user-title {
+    position: relative;
+    top: 12px;
+}
+
+.clients-user-title.oxxxy {
+    position: relative;
+    right: 20px;
+}
+
+
+/* Document section **********************/
+#result {
+    margin-top: 100px;
+}
+
+.result-box {
+    width: 85%;
+    margin: 0 auto;
+    background: #02897A;
+    border-radius: 30px;
+}
+
+.result-box-content {
+    padding-left: 30px;
+}
+
+.result-content-forwrite h2 {
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.result-content-forwrite button {
+    background: #fff;
+    color: #02897A;
+    width: 150px;
+    height: 50px;
+    color: #02897A;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Footer section **********************/
+#footer {
+    margin-top: 100px;
+}
+
+.footer .grid {
+    align-items: flex-start;
+}
+
+.footer-box-logo {
+    width: 160px;
+}
+
+.footer-box ul {
+    margin-top: 24px;
+    width: 150px;
+}
+
+.footer-box ul li a img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-box p {
+    margin-top: 15px;
+}
+
+.footer-box input {
+    width: 100%;
+    height: 48px;
+    margin: 34px 0 21px;
+    padding: 0 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid #c9c7c7;
+}
+
+.footer-title {
+    width: 90%;
+    margin: 10 auto;
+    text-align: center;
+}
+
+
+
+@media screen and (min-width:410px) and (max-width:430px) {
+    body {
+        background: #fff;
+    }
+
+    .h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 28px;
+        color: #173A56;
+    }
+
+    .h2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 60px;
+        color: #22343D;
+    }
+
+    .h3 {
+        font-family: Poppins;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 33px;
+        color: #22343D;
+    }
+
+    .h4 {
+        font-family: Poppins;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+    }
+
+    .p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: #22343D;
+    }
+
+    .p1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16.5px;
+        line-height: 26px;
+        color: #22343D;
+    }
+
+    .p2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16.5px;
+        line-height: 26px;
+        text-align: center;
+        color: #000;
+    }
+
+    .header-content .grid {
+        flex-direction: column-reverse !important;
+    }
+
+    .header-nav-list {
+        display: none !important;
+    }
+
+    .header-content-img img {
+        width: 338px;
+        height: 310px;
+    }
+
+    .header-content-forwrite {
+        text-align: center;
+    }
+
+    .header-content-link {
+        width: 360px;
+    }
+
+    .header-content-link img {
+        position: relative;
+        left: 15px;
+    }
+
+    .header-bars {
+        opacity: 1;
+        position: relative;
+        bottom: 792px;
+        left: 371px;
+    }
+
+    .feature-box {
+        text-align: center;
+    }
+
+    #document {
+        margin-top: 150px;
+    }
+
+    .document-box {
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+
+    .document-box-img img {
+        width: 349px;
+        height: 306px;
+    }
+
+    .document-box .one {
+        padding: 0;
+        margin: 0;
+    }
+
+    .document-box .forwrite {
+        left: 0;
+    }
+
+    #workshop {
+        margin-top: 100px;
+    }
+
+    .workshop-title {
+        margin: 0 auto;
+    }
+
+    .workshop-title p {
+        width: 74%;
+        margin: 0 auto 30px;
+    }
+
+    .workshop-container .workshop-box {
+        margin-top: -80px;
+    }
+
+    .workshop-container .workshop-box-old {
+        margin-top: -30px;
+    }
+
+    .workshop-box-img img {
+        width: 89px;
+        height: 89px;
+    }
+
+    .workshop-box-forwrite {
+        width: 180px;
+    }
+
+    .workshop-box-forwrite p {
+        padding: 0 10px;
+    }
+
+    .noeffect {
+        position: relative;
+        left: -10px;
+    }
+
+    .effect {
+        margin-left: 10px;
+    }
+
+    .mg {
+        position: relative;
+        right: 45px;
+    }
+
+    .workshop-btn {
+        position: relative;
+        bottom: 50px;
+        left: 20px;
+        margin: 0;
+    }
+
+    #strategy {
+        margin-top: 100px;
+    }
+
+    .strategy-title {
+        text-align: center;
+    }
+
+    .strategy-cicrle {
+        display: none !important;
+    }
+
+    #price {
+        margin-top: 100px;
+    }
+
+    .price-box-content {
+        width: 85%;
+        margin: auto;
+    }
+
+    .clients-title p {
+        width: 90%;
+        margin: auto;
+    }
+
+    .result-box {
+        position: relative;
+        right: 24px;
+        text-align: center;
+    }
+
+    .result-content-forwrite h2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 151.4%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .result-content-img {
+        position: relative;
+        right: 45px;
+    }
+
+    .result-content-img img {
+        width: 351px;
+        height: 331px;
+    }
+
+    .logo {
+        margin-left: 115px;
+    }
+
+    .footer-box {
+        text-align: center;
+    }
+}
