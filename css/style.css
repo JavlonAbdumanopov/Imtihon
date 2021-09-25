@@ -9,6 +9,26 @@ body {
     overflow-x: hidden;
 }
 
+/* Scrollbar  ***********************/
+::-webkit-scrollbar {
+    width: 10px;
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 8px;
+    border-radius: 20px;
+    background: rgb(189, 186, 186);
+}
+
+::-webkit-scrollbar-track {
+    width: 8px;
+    background: #fff;
+}
+
+
+
+
 /* General class *************************/
 .h1 {
     font-family: Poppins;
@@ -182,11 +202,12 @@ body {
 
 .header-content p {
     margin: 20px 0;
+    width: 450px;
 }
 
 .header-content-link {
     margin-top: 40px;
-    width: 57%;
+    width: 80%;
 }
 
 .header-content-link button {
@@ -241,7 +262,7 @@ body {
 
 .forwrite {
     position: relative;
-    left: 110px;
+    left: 35px;
 }
 
 .document-box-img.one {
@@ -308,11 +329,11 @@ body {
 
 .noeffect {
     position: relative;
-    left: 32px;
+    left: 17px;
 }
 
 .workshop-box-forwrite {
-    width: 250px;
+    width: 265px;
     background: #fff;
     border-radius: 30px;
     box-shadow: 1px 7px 15px 1px rgb(236, 230, 230);
@@ -463,6 +484,11 @@ body {
     text-align: center;
 }
 
+.clients-title p {
+    width: 40%;
+    margin: auto;
+}
+
 .clients-box-content {
     border: 2px solid rgb(230, 227, 227);
     border-radius: 5px;
@@ -554,7 +580,7 @@ body {
 }
 
 .footer-box-logo {
-    width: 160px;
+    width: 180px;
 }
 
 .footer-box ul {
@@ -596,6 +622,22 @@ body {
         background: #fff;
     }
 
+    ::-webkit-scrollbar {
+        width: 10px;
+        background: #000;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        width: 8px;
+        border-radius: 20px;
+        background: rgb(189, 186, 186);
+    }
+
+    ::-webkit-scrollbar-track {
+        width: 8px;
+        background: #fff;
+    }
+
     .h1 {
         font-family: Poppins;
         font-style: normal;
@@ -609,7 +651,7 @@ body {
         font-family: Poppins;
         font-style: normal;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 32px;
         line-height: 60px;
         color: #22343D;
     }
@@ -675,19 +717,23 @@ body {
         text-align: center;
     }
 
+    .header-content-forwrite p {
+        width: 350px;
+    }
+
     .header-content-link {
-        width: 360px;
+        width: 400px;
     }
 
     .header-content-link img {
         position: relative;
-        left: 15px;
+        left: 45px;
     }
 
     .header-bars {
         opacity: 1;
         position: relative;
-        bottom: 792px;
+        bottom: 879px;
         left: 371px;
     }
 
@@ -728,7 +774,7 @@ body {
 
     .workshop-title p {
         width: 74%;
-        margin: 0 auto 30px;
+        margin: 20px auto 30px;
     }
 
     .workshop-container .workshop-box {
@@ -745,7 +791,7 @@ body {
     }
 
     .workshop-box-forwrite {
-        width: 180px;
+        width: 190px;
     }
 
     .workshop-box-forwrite p {
@@ -754,7 +800,7 @@ body {
 
     .noeffect {
         position: relative;
-        left: -10px;
+        left: -20px;
     }
 
     .effect {
@@ -763,7 +809,7 @@ body {
 
     .mg {
         position: relative;
-        right: 45px;
+        right: 35px;
     }
 
     .workshop-btn {
@@ -774,11 +820,15 @@ body {
     }
 
     #strategy {
-        margin-top: 100px;
+        margin-top: 70px;
     }
 
     .strategy-title {
         text-align: center;
+    }
+
+    .strategy-title h2 {
+        font-size: 32px;
     }
 
     .strategy-cicrle {
@@ -794,6 +844,10 @@ body {
         margin: auto;
     }
 
+    .clients h2 {
+        font-size: 32px;
+    }
+
     .clients-title p {
         width: 90%;
         margin: auto;
@@ -803,6 +857,11 @@ body {
         position: relative;
         right: 24px;
         text-align: center;
+    }
+
+    .result-content-forwrite {
+        position: relative;
+        right: 15px;
     }
 
     .result-content-forwrite h2 {
@@ -832,4 +891,15 @@ body {
     .footer-box {
         text-align: center;
     }
+
+    .footer-box-logo {
+        position: relative;
+        right: 17px;
+    }
+
+    .footer-box ul {
+        position: relative;
+        right: 10px;
+    }
+
 }
