@@ -218,8 +218,6 @@ body {
 
 .header-content-link img {
     margin-left: 30px;
-    position: relative;
-    left: -10px;
 }
 
 .header-content-link p {
@@ -230,6 +228,8 @@ body {
     line-height: 24px;
     text-decoration-line: underline;
     color: #02897A;
+    position: relative;
+    left: 10px;
 }
 
 /* Feature section **************************/
